@@ -24,6 +24,19 @@ This repository contains the full analytical workflow, cleaned datasets, code, a
   - Extracted from “Sales by product,” “Revenue by product,” or “Performance highlights.”
   - Output: `company_revenue.csv`
   - Columns: `Year | Company | Product | Revenue_DKK_million | Total_Company_Revenue | Percent_of_Total`
+    
+### Raw Source Files (External)
+
+-Due to file size constraints, source PDFs for company annual reports are hosted externally.
+
+
+**-Novo Nordisk Annual Reports (2017–2024)** and **Eli Lilly Annual Reports (2020–2024)**
+-[Access on Google Drive](https://drive.google.com/drive/folders/1GGhzbpAqZbElwnlnxwzUF2GqQPQLjxfO?usp=drive_link
+)
+
+Each report includes product-level sales data used to extract GLP-1 revenues in `data/processed/company_revenue.csv`.
+
+---
 
 ### Healthcare Spending (CMS)
 - **Medicare Part D Drug Spending Dashboard (2016–2023)** – CSV  
@@ -125,13 +138,55 @@ This repository contains the full analytical workflow, cleaned datasets, code, a
 
 ---
 
-## Example Visualizations
-- GLP-1 revenue share over time
-- Medicare spending vs beneficiaries (line & bar)
-- Diabetes prevalence vs GLP-1 usage (overlay chart)
-- Patent expiry timeline (horizontal bar)
-- Forecasted market size to 2030 (line projection)
-- Healthcare cost offset waterfall chart
+## Visual Insights
+
+This section presents key visualizations that capture the impact of GLP-1 agonists across revenue, healthcare spending, and population health.  
+All visuals are generated using Python (Plotly, Matplotlib, and Geopandas) from the processed datasets.
+
+---
+
+### 1. GLP-1 Revenue Share — Novo Nordisk vs Eli Lilly
+This figure illustrates the growing dominance of GLP-1 products in both companies’ total revenues from 2017 to 2024, showing the shift from legacy diabetes care to obesity and metabolic health markets.
+
+![GLP-1 Revenue Share](reports/figures/glp1_revenue_share.png)
+
+---
+
+### 2. Medicare Part D Spending Trend (2016 – 2023)
+Aggregate Medicare Part D spending on GLP-1 drugs has surged, particularly after 2021.  
+The visualization highlights both total cost and number of beneficiaries, signaling rapid adoption and budget impact.
+
+![Medicare Spending Trend](reports/figures/medicare_spending_trend.png)
+
+---
+
+### 3. Diabetes Prevalence vs GLP-1 Spending
+This overlay compares national diabetes prevalence (ages 18+ and 67+) with Medicare GLP-1 spending.  
+It visually connects rising prevalence with increasing therapeutic demand.
+
+![Diabetes vs GLP-1 Overlay](reports/figures/diabetes_vs_glp1_overlay.png)
+
+---
+
+### 4. Geographic Distribution of GLP-1 Spending
+A choropleth map illustrating state-level disparities in GLP-1 adoption and spending intensity across the U.S.  
+
+![Geographic GLP-1 Spending Map](reports/figures/geographic_spending_map.png)
+
+**Interactive Version:**  
+[View the Interactive Map](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/geographic_spending_map.html)
+
+---
+
+### 5. Patent Expiry and Market Forecast Timeline
+This timeline visualization combines GLP-1 patent expiry schedules (semaglutide 2026–2032; tirzepatide 2036) with projected global market growth, illustrating how exclusivity shapes long-term competition.
+
+![Patent and Forecast Timeline](reports/figures/patent_forecast_timeline.png)
+
+---
+
+📊 *All generated figures are available in* [`/reports/figures/`](reports/figures/).
+
 
 ---
 
