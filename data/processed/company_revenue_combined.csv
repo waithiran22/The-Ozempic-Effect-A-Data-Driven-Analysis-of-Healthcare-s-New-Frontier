@@ -1,0 +1,41 @@
+Year,Company,Product,Revenue_Value,Total_Company_Revenue,Percent_of_Total,Currency
+2017,Novo Nordisk,Saxenda,3059,111696,2.74,DKK million
+2017,Novo Nordisk,Victoza,19924,111696,17.84,DKK million
+2018,Novo Nordisk,GLP-1 (Victoza+Ozempic),26129,111831,23.36,DKK million
+2018,Novo Nordisk,Saxenda,3869,111831,3.46,DKK million
+2019,Novo Nordisk,Ozempic,11237,122021,9.21,DKK million
+2019,Novo Nordisk,Rybelsus,50,122021,0.04,DKK million
+2019,Novo Nordisk,Victoza,21934,122021,17.98,DKK million
+2020,Eli Lilly,Jardiance,1830,24540,7.46,USD million
+2020,Eli Lilly,Trulicity,5490,24540,22.37,USD million
+2020,Novo Nordisk,Ozempic,21211,126946,16.71,DKK million
+2020,Novo Nordisk,Rybelsus,1873,126946,1.48,DKK million
+2020,Novo Nordisk,Victoza,18747,126946,14.77,DKK million
+2021,Eli Lilly,Jardiance,1490,28318,5.26,USD million
+2021,Eli Lilly,Trulicity,6470,28318,22.85,USD million
+2021,Novo Nordisk,Obesity care (Wegovy+Saxenda),8400,140800,5.97,DKK million
+2021,Novo Nordisk,Ozempic,33705,140800,23.94,DKK million
+2021,Novo Nordisk,Rybelsus,4838,140800,3.44,DKK million
+2021,Novo Nordisk,Victoza,15054,140800,10.69,DKK million
+2022,Eli Lilly,Jardiance,1830,28541,6.41,USD million
+2022,Eli Lilly,Mounjaro,483,28541,1.69,USD million
+2022,Eli Lilly,Trulicity,7440,28541,26.07,USD million
+2022,Novo Nordisk,Obesity care (Wegovy+Saxenda),16864,176954,9.53,DKK million
+2022,Novo Nordisk,Ozempic,59750,176954,33.77,DKK million
+2022,Novo Nordisk,Rybelsus,11299,176954,6.39,DKK million
+2022,Novo Nordisk,Victoza,12322,176954,6.96,DKK million
+2023,Eli Lilly,Jardiance,2740,34124,8.03,USD million
+2023,Eli Lilly,Mounjaro,5160,34124,15.12,USD million
+2023,Eli Lilly,Trulicity,7999,34124,23.44,USD million
+2023,Novo Nordisk,Obesity care (Wegovy+Saxenda),41632,232261,17.92,DKK million
+2023,Novo Nordisk,Ozempic,95718,232261,41.21,DKK million
+2023,Novo Nordisk,Rybelsus,18750,232261,8.07,DKK million
+2023,Novo Nordisk,Victoza,8664,232261,3.73,DKK million
+2024,Eli Lilly,Jardiance,3150,42216,7.46,USD million
+2024,Eli Lilly,Mounjaro,12490,42216,29.59,USD million
+2024,Eli Lilly,Trulicity,6910,42216,16.37,USD million
+2024,Eli Lilly,Zepbound,5310,42216,12.58,USD million
+2024,Novo Nordisk,Obesity care (Wegovy+Saxenda),65146,290403,22.43,DKK million
+2024,Novo Nordisk,Ozempic,120342,290403,41.44,DKK million
+2024,Novo Nordisk,Rybelsus,23301,290403,8.02,DKK million
+2024,Novo Nordisk,Victoza,5482,290403,1.89,DKK million
