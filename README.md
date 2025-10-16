@@ -172,12 +172,16 @@ These visualizations show the number of Medicare beneficiaries using GLP-1 drugs
 ---
 
 ### 4. Geographic & Demographic Dynamics
-This overlay connects GLP-1 Medicare spending with national diabetes prevalence among adults (18+) and seniors (67+), serving as a population-level indicator of therapy adoption.
+This choropleth visualization highlights **state-level disparities** in GLP-1 adoption and spending intensity across the U.S., combining Medicare enrollment data, CDC obesity prevalence, and demographic demand factors.
 
-![Spending vs Adult Prevalence Overlay](reports/figures/overlay_spending_vs_adult_prevalence.png)
+**Interactive version:**  
+[🔗 Click here to view the live interactive map](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/state_demand_pressure_map_fixed.html)
 
-**Interactive Version:**  
-[View Interactive State-Level Map](reports/figures/state_demand_pressure_map_fixed.html)
+<p align="center">
+  <a href="https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/state_demand_pressure_map_fixed.html" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Interactive%20Map-Open%20in%20Browser-blue?style=for-the-badge" alt="View Interactive Map"/>
+  </a>
+</p>
 
 ---
 
@@ -206,14 +210,8 @@ This comparison shows how Medicare GLP-1 beneficiaries align with the growing se
 
 ![Overlay Beneficiaries vs Seniors](reports/figures/overlay_benes_vs_seniors.png)
 
-
-**Interactive Map:** [State-Level GLP-1 Spending]([docs/interactive/state_demand_pressure_map_fixed.html](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/state_demand_pressure_map_fixed.html))
-
-
----
-
-📊 *All high-resolution figures can be viewed in* [`/reports/figures/`](reports/figures/).
-
+--- 
+*All high-resolution figures can be viewed in* [`/reports/figures/`](reports/figures/).*
 ---
 
 ## Reproducibility
