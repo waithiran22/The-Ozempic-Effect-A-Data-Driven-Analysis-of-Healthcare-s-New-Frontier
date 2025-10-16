@@ -74,11 +74,10 @@ Each report includes product-level sales data used to extract GLP-1 revenues in 
 **Visualization**
 - Plotly and Matplotlib (core analysis)
 - Geopandas and Plotly (geographic insights)
-- R Shiny (optional dashboard interactivity)
+- R Shiny (dashboard interactivity)
 
 **Documentation and Collaboration**
 - GitHub for version control and publication
-- PDFPlumber or Tabula for PDF table extraction
 
 ---
 
@@ -222,5 +221,13 @@ Ensure dependencies are installed via:
 pip install -r requirements.txt
 ```
 
-## License
-This project is licensed under the MIT License.
+## About the Author
+-Waithira Ng’ang’a
+
+-Driven by curiosity at the intersection of healthcare, AI, and market analytics.
+
+-This project explores how emerging therapies reshape both business models and public health outcomes.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/waithira-nganga/)  
+[View More Projects](https://github.com/waithiran22)
+
