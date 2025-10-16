@@ -207,7 +207,7 @@ This comparison shows how Medicare GLP-1 beneficiaries align with the growing se
 ![Overlay Beneficiaries vs Seniors](reports/figures/overlay_benes_vs_seniors.png)
 
 
-**Interactive Map:** [State-Level GLP-1 Spending](docs/interactive/state_demand_pressure_map_fixed.html)
+**Interactive Map:** [State-Level GLP-1 Spending]([docs/interactive/state_demand_pressure_map_fixed.html](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/state_demand_pressure_map_fixed.html))
 
 
 ---
