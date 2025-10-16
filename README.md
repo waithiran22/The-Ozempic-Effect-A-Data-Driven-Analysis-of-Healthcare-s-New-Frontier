@@ -206,6 +206,10 @@ This comparison shows how Medicare GLP-1 beneficiaries align with the growing se
 
 ![Overlay Beneficiaries vs Seniors](reports/figures/overlay_benes_vs_seniors.png)
 
+
+**Interactive Map:** [State-Level GLP-1 Spending](docs/interactive/state_demand_pressure_map_fixed.html)
+
+
 ---
 
 📊 *All high-resolution figures can be viewed in* [`/reports/figures/`](reports/figures/).
