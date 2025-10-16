@@ -140,53 +140,62 @@ Each report includes product-level sales data used to extract GLP-1 revenues in 
 
 ## Visual Insights
 
-This section presents key visualizations that capture the impact of GLP-1 agonists across revenue, healthcare spending, and population health.  
+This section presents the core findings of *The Ozempic Effect* through key data visualizations that demonstrate how GLP-1 agonists have reshaped the healthcare and pharmaceutical landscape.  
 All visuals are generated using Python (Plotly, Matplotlib, and Geopandas) from the processed datasets.
 
 ---
 
-### 1. GLP-1 Revenue Share — Novo Nordisk vs Eli Lilly
-This figure illustrates the growing dominance of GLP-1 products in both companies’ total revenues from 2017 to 2024, showing the shift from legacy diabetes care to obesity and metabolic health markets.
+### 1. Company Dependency on GLP-1 Products
 
-![GLP-1 Revenue Share](reports/figures/glp1_revenue_share.png)
+Novo Nordisk and Eli Lilly have both experienced a rapid shift toward GLP-1-driven revenue.  
+This figure illustrates the percentage of each company’s total sales derived from GLP-1 products between 2017 and 2024.
 
----
-
-### 2. Medicare Part D Spending Trend (2016 – 2023)
-Aggregate Medicare Part D spending on GLP-1 drugs has surged, particularly after 2021.  
-The visualization highlights both total cost and number of beneficiaries, signaling rapid adoption and budget impact.
-
-![Medicare Spending Trend](reports/figures/medicare_spending_trend.png)
+![Company Dependency on GLP-1 Share](reports/figures/company_dependency_glp1_share.png)
 
 ---
 
-### 3. Diabetes Prevalence vs GLP-1 Spending
-This overlay compares national diabetes prevalence (ages 18+ and 67+) with Medicare GLP-1 spending.  
-It visually connects rising prevalence with increasing therapeutic demand.
+### 2. Medicare Part D Total GLP-1 Spending (2016 – 2023)
 
-![Diabetes vs GLP-1 Overlay](reports/figures/diabetes_vs_glp1_overlay.png)
+Aggregate Medicare Part D expenditures on GLP-1 drugs have surged, particularly since 2021.  
+This plot highlights the total federal outlay for these therapies over time.
 
----
-
-### 4. Geographic Distribution of GLP-1 Spending
-A choropleth map illustrating state-level disparities in GLP-1 adoption and spending intensity across the U.S.  
-
-![Geographic GLP-1 Spending Map](reports/figures/geographic_spending_map.png)
-
-**Interactive Version:**  
-[View the Interactive Map](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/geographic_spending_map.html)
+![Medicare GLP-1 Total Spending](reports/figures/medicare_glp1_total_spending.png)
 
 ---
 
-### 5. Patent Expiry and Market Forecast Timeline
-This timeline visualization combines GLP-1 patent expiry schedules (semaglutide 2026–2032; tirzepatide 2036) with projected global market growth, illustrating how exclusivity shapes long-term competition.
+### 3. Beneficiaries and Average Spend per Beneficiary
 
-![Patent and Forecast Timeline](reports/figures/patent_forecast_timeline.png)
+These visualizations show the number of Medicare beneficiaries using GLP-1 drugs and the corresponding average cost per patient.  
+Together, they reveal the dual effect of rising adoption and higher per-beneficiary costs.
+
+| Metric | Visualization |
+|:-------|:---------------|
+| Total Beneficiaries | ![Beneficiaries](reports/figures/medicare_glp1_beneficiaries.png) |
+| Spend per Beneficiary | ![Spend per Beneficiary](reports/figures/medicare_glp1_spend_per_bene.png) |
 
 ---
 
-📊 *All generated figures are available in* [`/reports/figures/`](reports/figures/).
+### 4. Geographic and Demographic Dynamics
 
+This overlay demonstrates how GLP-1 Medicare spending tracks alongside national diabetes prevalence among adults (18+) and seniors (67+).  
+It serves as a geographic-style indicator of population health burden and therapeutic penetration.
+
+![Spending vs Adult Prevalence Overlay](reports/figures/overlay_spending_vs_adult_prevalence.png)
+
+---
+
+### 5. Forecast and Future Cost Offsets to 2030
+
+Forecast models predict Medicare GLP-1 spending and beneficiary growth through 2030, then simulate potential healthcare cost offsets from reduced obesity-related conditions.
+
+| Forecast | Visualization |
+|:----------|:---------------|
+| Spending Forecast | ![Forecast to 2030](reports/figures/forecast_spending_to_2030.png) |
+| Net Cost Offsets (2030 Estimate) | ![Cost Offsets](reports/figures/cost_oofsets_net_2030.png) |
+
+---
+
+📊 *All figures are available in* [`/reports/figures/`](reports/figures/) *for full-resolution viewing.*
 
 ---
 
