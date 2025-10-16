@@ -140,30 +140,29 @@ Each report includes product-level sales data used to extract GLP-1 revenues in 
 
 ## Visual Insights
 
-This section presents the most impactful visualizations from *The Ozempic Effect* project, highlighting the financial, healthcare, and population-level transformation driven by GLP-1 agonists.  
-All figures were generated using Python (Plotly, Matplotlib, and Geopandas) based on processed datasets from CMS, CDC, and company financial reports.
+This section presents the most impactful visualizations from *The Ozempic Effect* project, showing how GLP-1 agonists are reshaping company performance, Medicare spending, and public health outcomes.  
+All figures were generated in Python using Plotly, Matplotlib, and Geopandas.
 
 ---
 
 ### 1. Company Dependency on GLP-1 Products
-Novo Nordisk and Eli Lilly have both experienced a rapid transition toward GLP-1-driven revenues.  
-This visualization shows the percentage of each company’s total sales derived from GLP-1 drugs between 2017 and 2024, illustrating their growing reliance on metabolic health portfolios.
+Novo Nordisk and Eli Lilly have experienced a dramatic pivot toward GLP-1-driven revenues.  
+This visualization shows the percentage of each company’s total sales derived from GLP-1 drugs between 2017 – 2024.
 
 ![Company Dependency on GLP-1 Share](reports/figures/company_dependency_glp1_share.png)
 
 ---
 
-### 2. Medicare Part D Spending Growth (2016–2023)
-Aggregate Medicare Part D expenditures on GLP-1 drugs have surged, particularly since 2021.  
-The visualization highlights total federal outlays, rapid cost escalation, and the expanding role of GLP-1s in the national healthcare budget.
+### 2. Medicare Part D Total GLP-1 Spending (2016 – 2023)
+Aggregate Medicare Part D expenditures on GLP-1 therapies have surged, particularly since 2021.  
+This figure highlights total federal outlays and growth acceleration over time.
 
 ![Medicare GLP-1 Total Spending](reports/figures/medicare_glp1_total_spending.png)
 
 ---
 
 ### 3. Beneficiaries and Average Spend per Beneficiary
-The following plots demonstrate how both utilization and spending per Medicare beneficiary have risen sharply.  
-They reveal the compounding effect of expanding patient access and higher therapy costs.
+These visualizations show the number of Medicare beneficiaries using GLP-1 drugs and the average cost per patient — revealing the dual impact of rising adoption and higher per-beneficiary costs.
 
 | Metric | Visualization |
 |:-------|:--------------|
@@ -172,50 +171,44 @@ They reveal the compounding effect of expanding patient access and higher therap
 
 ---
 
-### 4. Geographic and Demographic Dynamics
-This overlay links GLP-1 Medicare spending to national diabetes prevalence among adults (18+) and seniors (67+).  
-It functions as a geographic-style indicator of disease burden, adoption rate, and therapy penetration across population groups.
+### 4. Geographic & Demographic Dynamics
+This overlay connects GLP-1 Medicare spending with national diabetes prevalence among adults (18+) and seniors (67+), serving as a population-level indicator of therapy adoption.
 
 ![Spending vs Adult Prevalence Overlay](reports/figures/overlay_spending_vs_adult_prevalence.png)
 
-**Interactive Version (Optional):**  
-[View Interactive Geographic Map](https://waithiran22.github.io/The-Ozempic-Effect-A-Data-Driven-Analysis-of-Healthcare-s-New-Frontier/geographic_spending_map.html)
+**Interactive Version:**  
+[View Interactive State-Level Map](reports/figures/state_demand_pressure_map_fixed.html)
 
 ---
 
-### 5. Forecast and Future Cost Offsets (to 2030)
-Forecast models project Medicare GLP-1 spending and beneficiary growth through 2030, then simulate potential healthcare cost offsets from reduced obesity- and diabetes-related complications.  
-The results highlight the financial tradeoff between near-term expenditure and long-term system savings.
+### 5. Forecast and Cost Offsets to 2030
+Forecast models project Medicare GLP-1 spending and beneficiary growth through 2030, then simulate potential healthcare cost offsets from reduced obesity-related conditions.
 
 | Forecast | Visualization |
-|:----------|:---------------|
+|:----------|:--------------|
 | Spending Forecast | ![Forecast to 2030](reports/figures/forecast_spending_to_2030.png) |
-| Net Cost Offsets (2030 Estimate) | ![Cost Offsets](reports/figures/cost_offsets_net_2030.png) |
+| Net Cost Offsets (2030 Estimate) | ![Cost Offsets 2030](reports/figures/cost_offsets_net_2030%20.png) |
 
 ---
 
-### 6. GLP-1 Revenue Share — Novo Nordisk vs Eli Lilly
-This figure illustrates the growing dominance of GLP-1 products in both companies’ total revenues from 2017 to 2024, marking the shift from legacy diabetes care to obesity and metabolic health.
+### 6. Novo Nordisk vs Eli Lilly GLP-1 Revenue Share (Area Comparison)
+These area plots compare the relative contribution of GLP-1 products versus other revenue streams for each company, highlighting their evolving market mix.
 
-![GLP-1 Revenue Share](reports/figures/glp1_revenue_share.png)
-
----
-
-### 7. Diabetes Prevalence vs GLP-1 Spending
-This visualization compares national diabetes prevalence (ages 18+ and 67+) with Medicare GLP-1 spending, revealing how therapeutic demand aligns with disease incidence.
-
-![Diabetes vs GLP-1 Overlay](reports/figures/diabetes_vs_glp1_overlay.png)
+| Company | Visualization |
+|:---------|:--------------|
+| Novo Nordisk | ![Novo Nordisk GLP-1 vs Other Share](reports/figures/novo_nordisk_glp1_vs_other_share_area.png) |
+| Eli Lilly | ![Eli Lilly GLP-1 vs Other Share](reports/figures/eli_lilly_glp1_vs_other_share_area.png) |
 
 ---
 
-### 8. Patent Expiry and Market Forecast Timeline
-This timeline integrates GLP-1 patent expiry schedules (semaglutide: 2026–2032; tirzepatide: 2036) with projected global market growth, highlighting how exclusivity shapes future competition and innovation cycles.
+### 7. Overlay — Beneficiaries vs Senior Population
+This comparison shows how Medicare GLP-1 beneficiaries align with the growing senior diabetic population, reflecting demographic pressure on demand.
 
-![Patent and Forecast Timeline](reports/figures/patent_forecast_timeline.png)
+![Overlay Beneficiaries vs Seniors](reports/figures/overlay_benes_vs_seniors.png)
 
 ---
 
-📊 *All high-resolution figures are available in* [`/reports/figures/`](reports/figures/) *for further analysis and download.*
+📊 *All high-resolution figures can be viewed in* [`/reports/figures/`](reports/figures/).
 
 ---
 
