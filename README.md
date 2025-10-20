@@ -27,12 +27,10 @@ This repository contains the full analytical workflow, cleaned datasets, code, a
     
 ### Raw Source Files (External)
 
--Due to file size constraints, source PDFs for company annual reports are hosted externally.
+Due to file size constraints, source PDFs for company annual reports are hosted externally.
 
-
-**-Novo Nordisk Annual Reports (2017–2024)** and **Eli Lilly Annual Reports (2020–2024)**
--[Access on Google Drive](https://drive.google.com/drive/folders/1GGhzbpAqZbElwnlnxwzUF2GqQPQLjxfO?usp=drive_link
-)
+**Novo Nordisk Annual Reports (2017–2024)** and **Eli Lilly Annual Reports (2020–2024)**  
+[Access on Google Drive](https://drive.google.com/drive/folders/1GGhzbpAqZbElwnlnxwzUF2GqQPQLjxfO?usp=drive_link)
 
 Each report includes product-level sales data used to extract GLP-1 revenues in `data/processed/company_revenue.csv`.
 
@@ -209,8 +207,86 @@ This comparison shows how Medicare GLP-1 beneficiaries align with the growing se
 
 ![Overlay Beneficiaries vs Seniors](reports/figures/overlay_benes_vs_seniors.png)
 
---- 
-*All high-resolution figures can be viewed in* [`/reports/figures/`](reports/figures/).*
+---
+
+### 8. GLP-1 Spending vs Adult Diabetes Prevalence
+This overlay shows total GLP-1 spending compared to adult (18+) diabetes prevalence — highlighting how spending growth has far outpaced disease prevalence trends.
+
+![Overlay Spending vs Adult Prevalence](reports/figures/overlay_spending_vs_adult_prevalence.png)
+
+---
+
+##  Results & Recommendations
+
+### 1. Pharma Dependency & Market Dynamics
+- **Novo Nordisk** revenue from GLP-1s grew from **21% (2017)** → **74% (2024)**.  
+- **Eli Lilly** grew from **22% (2020)** → **58% (2024)**.  
+- Both firms’ valuations are now heavily dependent on GLP-1s — creating market dominance *and* vulnerability to patent cliffs and regulatory scrutiny.  
+
+**Insight:** GLP-1 dependency mirrors early insulin-era concentration — but at a larger, globalized scale.
+
+---
+
+### 2. Medicare Spending Growth
+- **Total Medicare GLP-1 spending** grew from **$2B (2016)** → **$15.9B (2023)**.  
+- **Beneficiaries** rose 5.5× (0.4M → 2.2M).  
+- **Per-beneficiary spend** grew modestly ($5.4K → $6.8K).  
+
+**Insight:** Growth is driven more by **adoption** than price inflation — a sign of mainstream use and expanding indications.
+
+---
+
+### 3. Health Context — Diabetes Prevalence
+- Adult prevalence rose only **~0.3 percentage points (8.3 → 8.6%)** since 2019.  
+- Senior (67+) prevalence is stable or slightly declining.  
+- Yet GLP-1 utilization among Medicare enrollees exploded.  
+
+**Insight:** Uptake far exceeds underlying disease growth — reflecting **off-label expansion into obesity** and lifestyle-driven demand.
+
+---
+
+### 4. Forecasts: Spending & Beneficiaries to 2030
+- **Base case:** Medicare GLP-1 spending > **$5T** by 2030.  
+- **High case:** ~$17T cumulative if current trends persist.  
+- Even low case crosses $1T.  
+
+**Insight:** Unless coverage or pricing reforms are introduced, GLP-1s may become **Medicare’s single largest therapeutic expenditure** by decade’s end.
+
+---
+
+### 5. Net Economic Impact — Costs vs Savings
+- **Base:** ~$2.2T net cost by 2030  
+- **High:** ~$3.3T  
+- **Low (optimistic savings):** ~$1.1T  
+Even accounting for obesity-related savings, GLP-1s remain **net costly** until long-term health savings fully materialize.
+
+**Insight:** Budgetary strain precedes health benefits — requiring short-term cost management.
+
+---
+
+### 🧭 Policy & Strategic Recommendations
+
+#### 🏛️ For Policymakers (CMS, HHS)
+1. Expand **real-world effectiveness tracking** using CMS–CDC linked datasets.  
+2. Implement **indication-based pricing** (obesity vs diabetes).  
+3. Test **outcome-based reimbursement** tied to measurable BMI or hospitalization reduction.  
+4. Fund **preventive health programs** parallel to pharmacologic coverage.  
+
+####  For Pharma & Investors
+1. Diversify R&D pipelines to reduce **GLP-1 concentration risk**.  
+2. Prepare for **biosimilar and oral competition** (Amgen, Pfizer).  
+3. Communicate **economic value** via longitudinal cost-savings studies.  
+
+####  For Insurers & Payers
+1. Deploy **tiered coverage models** based on outcomes.  
+2. Track **adherence analytics** to optimize effectiveness.  
+3. Use **AI forecasting** to anticipate geographic demand surges.  
+
+---
+
+###  Big Picture Takeaway
+> *GLP-1 drugs have reshaped the healthcare economy faster than any therapy in modern history. Their future depends on aligning access, affordability, and long-term value creation.*
+
 ---
 
 ## Reproducibility
@@ -219,15 +295,3 @@ Ensure dependencies are installed via:
 
 ```bash
 pip install -r requirements.txt
-```
-
-## About the Author
--Waithira Ng’ang’a
-
--Driven by curiosity at the intersection of healthcare, AI, and market analytics.
-
--This project explores how emerging therapies reshape both business models and public health outcomes.
-
-[Connect on LinkedIn](https://www.linkedin.com/in/waithira-nganga/)  
-[View More Projects](https://github.com/waithiran22)
-
