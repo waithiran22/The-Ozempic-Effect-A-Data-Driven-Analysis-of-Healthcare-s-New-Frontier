@@ -295,3 +295,10 @@ Ensure dependencies are installed via:
 
 ```bash
 pip install -r requirements.txt
+```
+---
+
+## About the Author 
+-Driven by curiosity at the intersection of healthcare, AI, and market analytics. -This project explores how emerging therapies reshape both business models and public health outcomes.
+- [Connect on LinkedIn](https://www.linkedin.com/in/waithira-nganga/) 
+- [View More Projects](https://github.com/waithiran22)
